@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>::JOSPINOA::</title>
+</head>
+<body>
+    <header>
+       <img src="img/oracle_one.png" alt="logo">
+       <img src="img/alura.png" alt="alura">
+    </header>
+    <content id="contenidoPrincipal">
+        <aside id="zonaJuego" style="display: none;">
+            <ul>
+                <li>Total Vidas: <span id="tempMostrarTotalVidas"></span> </li>
+            </ul>
+            <div id="zonaAhorcado">
+                
+                <div id="imgAhorcado"></div>
+                <div id="tempPalabraEncontrada"></div>
+
+                <div id="contIngresarLetra">
+                    <p>Ingrese una letra</p>
+                    <input type="text" id="txtRecibePalabra" class="inputText" maxlength="1">
+                    <div id="contLetrasIncorrectas">
+                        <p><small>Letras incorrectas ingresadas</small></p>
+                        <div id="listLetrasIncorrectas"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="zonaBotonesAhorcado">
+                <button id="btnNuevoJuego" class="btnSuccess">Nuevo Juego</button>
+                <button id="btnSalirJuego" class="btnSecond">Salir</button>
+            </div>
+        </aside>
+        <aside id="zonaBotonesJuego">
+            <button id="btnJugar" class="btnPrimary">Empezar Juego</button>
+            <button id="btnNuevaPalabra" class="btnSecond">Nueva Palabra</button>
+        </aside>
+        <aside id="zonaNuevaPalabra" style="display: none;">
+           <form id="frmNuevaPalabra" autocomplete="off">
+                <h4>Agregar nueva palabra al juego</h4>
+                <input type="text" class="inputText" id="txtNuevaPalabra" name="txtNuevaPalabra" required>
+                <button class="btnSuccess" type="submit">Guardar</button>
+                <button id="btnCancelarGuardarPalabra" class="btnSecond">Cancelar</button>
+           </form>
+        </aside>
+    </content>
+    <footer>
+        <ul>
+            <li>Jair Ospino Ardila</li>
+            <li><a href="tel:+573148397817">(+57) 3148397817</a></li>
+            <li><a href="mailto:jairospino@hotmail.com">jairospino@hotmail.com</a></li>
+            <li><img src="img/flag.png" width="25" alt="flag"> Valledupar, Colombia</li>
+        </ul>
+    </footer>
+    <script src="js/parametros.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

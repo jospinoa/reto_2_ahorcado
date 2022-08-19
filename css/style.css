@@ -1,0 +1,171 @@
+/*
+    @author: Jair Ospino Ardila
+    @city-country:Valledupar, Colombia
+    @email: jairospino@hotmail.com
+    @phone: +573148397817
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input[type="text"], textarea{
+    text-transform: uppercase;
+}
+
+body{
+    background: #ECEFF1;
+    padding: 0px;
+}
+
+button{
+    margin-top: 7px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b4004e;
+    padding: 10px;
+}
+header > img{
+    max-width: 250px;
+    max-height: 60px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+ul{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #9da3a2;
+}
+ul > li{
+    display: flex;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: #9da3a2;
+}
+
+#zonaBotonesJuego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#zonaNuevaPalabra{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#zonaNuevaPalabra > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#zonaNuevaPalabra > form > h4{
+    font-size: 20px;
+    color: #546E7A;
+    margin-bottom: 15px;
+}
+
+#zonaAhorcado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#zonaBotonesAhorcado{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#contenidoPrincipal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#contIngresarLetra{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#contIngresarLetra > p{
+    color: #607D8B;
+    font-size: 20px;
+}
+
+#contIngresarLetra > input{
+    width: 100px;
+    text-align: center;
+}
+
+#contLetrasIncorrectas{
+    margin-top: 35px;
+    
+}
+
+#listLetrasIncorrectas{
+    color: #B0BEC5;
+    margin-top: 5px;
+    letter-spacing: 10px;
+    border: 1px solid #CFD8DC;
+    padding: 5px;
+}
+
+.btnPrimary{
+    background-color: #EC407A;
+    color: #ffff;
+}
+.btnSecond{
+    background-color: #607D8B;
+    color: #ffff;
+}
+.btnSuccess{
+    background-color: #009688;
+    color: #ffff;
+}
+.btnDefault{
+    background-color: #9da3a2;
+    color: #ffff;
+}
+.inputText{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding-left: 3px;
+}
+
+.letraSecreta{
+    border-bottom: 2px solid #009688;
+    margin: 0px 5px 0px 5px;
+    font-size: 40px;
+    padding: 10px;
+}
